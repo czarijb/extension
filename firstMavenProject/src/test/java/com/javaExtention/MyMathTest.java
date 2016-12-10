@@ -9,7 +9,7 @@ import junit.framework.TestCase;
 public class MyMathTest extends TestCase{
     private MyMath mm = new MyMath();
 
-
+    @Test
     public void testMathSqrt(){
         assertTrue(mm.mathSqrt(81) == 9.0);
     }
