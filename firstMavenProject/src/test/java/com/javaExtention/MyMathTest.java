@@ -11,6 +11,6 @@ public class MyMathTest extends TestCase{
 
     @Test
     public void testMathSqrt(){
-        assertTrue(mm.mathSqrt(81) == 9.0);
+        assertEquals("my mathSqrt func ",mm.mathSqrt(81),9.0, 0.000001);
     }
 }
