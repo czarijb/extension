@@ -1,4 +1,4 @@
-package com.javaExtention;
+package com.javaextention;
 
 
 import junit.framework.TestCase;
@@ -11,7 +11,7 @@ public class MyMathTest extends TestCase {
     private MyMath mm = new MyMath();
 
     @Test
-    public void testMathSqrt(){
-        assertEquals("my mathSqrt func ",mm.mathSqrt(81),9.0, 0.000001);
+    public void testMathSqrt() {
+        assertEquals("my mathSqrt func ", mm.mathSqrt(81), 9.0, 0.000001);
     }
 }
